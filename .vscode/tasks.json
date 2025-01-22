@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build OpenGL Project",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "C:/Users/xiaoy/OneDrive/Desktop/Procedural Rendering/src/main.cpp",
+                "C:/Users/xiaoy/OneDrive/Desktop/Procedural Rendering/src/glad.c",
+                "-IC:/Users/xiaoy/OneDrive/Desktop/Procedural Rendering/include",
+                "-LC:/Users/xiaoy/OneDrive/Desktop/Procedural Rendering/lib",
+                "-lglfw3",
+                "-lopengl32",
+                "-lgdi32",
+                "-o",
+                "C:/Users/xiaoy/OneDrive/Desktop/Procedural Rendering/build/main.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}
