@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\xiaoy\OneDrive\Desktop\Procedural Rendering\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\xiaoy\OneDrive\Desktop\Procedural Rendering\src\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\xiaoy\OneDrive\Desktop\Procedural Rendering\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9F95E2C6-3ACC-3495-BDA5-9834DEA99BA5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

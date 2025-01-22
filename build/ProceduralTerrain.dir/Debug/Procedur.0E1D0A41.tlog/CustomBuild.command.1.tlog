@@ -1,0 +1,10 @@
+^C:\USERS\XIAOY\ONEDRIVE\DESKTOP\PROCEDURAL RENDERING\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/xiaoy/OneDrive/Desktop/Procedural Rendering" "-BC:/Users/xiaoy/OneDrive/Desktop/Procedural Rendering/build" --check-stamp-file "C:/Users/xiaoy/OneDrive/Desktop/Procedural Rendering/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
